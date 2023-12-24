@@ -60,6 +60,21 @@
         height: 100%;
         font-size: 1rem;
         border-radius: 5px;
+    }
 
+    @media only screen and (max-width: 600px) {
+        .Tech-box{
+            flex-direction: column;
+            width: 100%;
+            height: 200px;
+        }
+        .tech-stack_logo{
+            width: 100%;
+            height: 50%;
+        }
+        .tech-stack_desc{
+            width: 100%;
+            height: 50%;
+        }
     }
     </style>

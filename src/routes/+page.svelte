@@ -63,11 +63,12 @@ const handleSubmit= async ()=>{
 		flex-direction: row;
 		gap: 10px;
         /* width: 100%; */
-        widows: 80%;
+        /* widows: 80%; */
+		
 	}
     
 	.url-input {
-		width: 30rem;
+		width: 50vw;
 		height: 2rem;
 		border-radius: 5px;
 		border: 1px solid rgb(237, 120, 17);
@@ -77,8 +78,9 @@ const handleSubmit= async ()=>{
 	}
     .shortURL-box{
         display: flex;
-        width: 25rem;
+        width: 50vw;
         height: 2rem;
+		max-width: 90%;
 		border-radius: 5px;
         justify-self: flex-start;
 		border: 1px solid rgb(237, 120, 17);
