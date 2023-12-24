@@ -127,7 +127,7 @@
 	}
 
     .fail{
-        background-color: rgb(26, 247, 23);
+        background-color: rgb(247, 34, 23);
     }
     .sent{
         background-color: rgb(0, 255, 0);
